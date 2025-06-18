@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.clienk.clienk_client",
+    "sha256_cert_fingerprints":
+    ["19:53:0B:8F:6B:3D:C1:EF:5C:14:7C:34:9B:05:1B:53:79:7A:EC:02:59:94:29:95:72:BB:56:FD:3B:C3:F7:92"]
+  }
+}]
