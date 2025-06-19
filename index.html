@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Clieank</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript">
+            window.onload = function() {
+                var visitTime = (new Date()).getTime();
+
+                var isAndroid = /android/i.test(navigator.userAgent);
+                var isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+                if(isAndroid) {
+                    location.href = "https://play.google.com/store/apps/details?id=com.clienk.clienk_client&pli=1";
+                } else if (isiOS) {
+                    location.href = "https://apps.apple.com/kr/app/%ED%81%B4%EB%A6%B0%ED%81%AC/id6741298059";
+                }
+            }
+        </script>
+    </head>
+    <body style="color: skyblue;">
+        <h2>스토어로 이동</h2>
+    </body>
+</html>
